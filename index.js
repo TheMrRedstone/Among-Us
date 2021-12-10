@@ -1,5 +1,5 @@
 document.addEventListener("keypress", function(event) {
-  if (event.key == "w") {
+  if (event.keycode == 87) {
     alert('you pressed w');
   }
 });
